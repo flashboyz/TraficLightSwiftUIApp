@@ -17,6 +17,7 @@ struct ColorCircle: View {
             .frame(width: 150, height: 150)
             .overlay(Circle().stroke(Color.white, lineWidth: 3))
             .shadow(radius: 5)
+            .padding()
     }
 }
 
